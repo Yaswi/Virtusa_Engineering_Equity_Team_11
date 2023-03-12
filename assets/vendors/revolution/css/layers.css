@@ -1273,7 +1273,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-Display,.Medicine
+.tp-caption.Mathematics-Display,.Mathematics
 {
 	background-color:transparent;
 	border-color:transparent;
@@ -1291,7 +1291,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-Subline,.PhoMedicinene
+.tp-caption.Mathematics-Subline,.PhoMathematicsne
 {
 	background-color:transparent;
 	border-color:transparent;
@@ -1309,7 +1309,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-ImageHover,.PhoMedicineageHover
+.tp-caption.Mathematics-ImageHover,.PhoMathematicsageHover
 {
 	background-color:transparent;
 	border-color:rgba(255,255,255,0);
@@ -1325,7 +1325,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-ImageHover:hover,.Medicine-ImageHover:hover
+.tp-caption.Mathematics-ImageHover:hover,.Mathematics-ImageHover:hover
 {
 	background-color:transparent;
 	border-color:transparent;
@@ -1336,7 +1336,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-Menuitem,.Medicine-Menuitem
+.tp-caption.Mathematics-Menuitem,.Mathematics-Menuitem
 {
 	background-color:rgba(0,0,0,0.65);
 	border-color:transparent;
@@ -1354,7 +1354,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-Menuitem:hover,.Medicine-Menuitem:hover
+.tp-caption.Mathematics-Menuitem:hover,.Mathematics-Menuitem:hover
 {
 	background-color:rgba(0,255,222,0.65);
 	border-color:transparent;
@@ -1365,7 +1365,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-Textblock,.Medicine-Textblock
+.tp-caption.Mathematics-Textblock,.Mathematics-Textblock
 {
 	background-color:transparent;
 	border-color:transparent;
@@ -1383,7 +1383,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-Subline-2,.Medicine-Subline-2
+.tp-caption.Mathematics-Subline-2,.Mathematics-Subline-2
 {
 	background-color:transparent;
 	border-color:transparent;
@@ -1401,7 +1401,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-ImageHover2,.Medicine-ImageHover2
+.tp-caption.Mathematics-ImageHover2,.Mathematics-ImageHover2
 {
 	background-color:transparent;
 	border-color:rgba(255,255,255,0);
@@ -1418,7 +1418,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-ImageHover2:hover,.Medicine-ImageHover2:hover
+.tp-caption.Mathematics-ImageHover2:hover,.Mathematics-ImageHover2:hover
 {
 	background-color:transparent;
 	border-color:transparent;
@@ -2147,7 +2147,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-Button,.Medicine-Button
+.tp-caption.Mathematics-Button,.Mathematics-Button
 {
 	background-color:rgba(0,0,0,0);
 	border-color:rgba(255,255,255,0.25);
@@ -2166,7 +2166,7 @@ website:   	http://www.themepunch.com
 	text-decoration:none;
 }
 
-.tp-caption.Medicine-Button:hover,.Medicine-Button:hover
+.tp-caption.Mathematics-Button:hover,.Mathematics-Button:hover
 {
 	background-color:rgba(0,0,0,0);
 	border-color:rgba(255,255,255,1.00);

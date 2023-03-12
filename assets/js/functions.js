@@ -238,8 +238,8 @@ Theme Version:	1.0.0
 				
 				
 				/* Page Scroll To Top ============ */
-				var pageScrollToTop = function (){
-					/* page scroll top on click function */	
+				 var pageScrollToTop = function (){
+				// 	/* page scroll top on click function */	
 					jQuery("button.back-to-top").on('click',function() { 
 						jQuery('html').animate({ scrollTop: 0 }, 500);
 						return false;
@@ -251,7 +251,7 @@ Theme Version:	1.0.0
 							jQuery("button.back-to-top").slideDown(1000).fadeIn(1000);
 						} else {
 							jQuery("button.back-to-top").slideUp(1000).fadeOut(1000);
-						}
+					}
 					});
 					/* page scroll top on click function end*/
 				}

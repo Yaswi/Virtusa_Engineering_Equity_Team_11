@@ -63,19 +63,19 @@
 				</div>	
 				<form class="contact-bx">
 					<div class="row placeani">
-						<div class="col-lg-12">
+						<!-- <div class="col-lg-12">
 							<div class="form-group">
 								<div class="input-group">
 									<label>Your Name</label>
 									<input name="dzName" type="text" required="" class="form-control">
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="col-lg-12">
 							<div class="form-group">
 								<div class="input-group">
 									<label>Your Email Address</label>
-									<input name="dzName" type="email" required="" class="form-control">
+									<input name="email" type="email" required="" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -83,12 +83,12 @@
 							<div class="form-group">
 								<div class="input-group"> 
 									<label>Your Password</label>
-									<input name="dzEmail" type="password" class="form-control" required="">
+									<input name="password" type="password" class="form-control" required="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-12 m-b30">
-							<button name="submit" type="submit" value="Submit" class="btn button-md">Sign Up</button>
+							<button name="submit" type="submit" value="Submit" class="btn button-md" target="index.html">Sign Up</button>
 						</div>
 					</div>
 				</form>
@@ -113,5 +113,41 @@
 <script src="assets/js/contact.js"></script>
 <script src='assets/vendors/switcher/switcher.js'></script>
 </body>
+<script type="module">
+	import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+	import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+	const firebaseConfig = {
+	  apiKey: "AIzaSyATMZ61rD4Oixolj_tiw5F0qwZ0oOa0-20",
+	  authDomain: "final-project-5ef7b.firebaseapp.com",
+	  projectId: "final-project-5ef7b",
+	  storageBucket: "final-project-5ef7b.appspot.com",
+	  messagingSenderId: "202133592900",
+	  appId: "1:202133592900:web:759250e4600d332bd6d511"
+	};
+  
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+	const auth=getAuth();
+	document.getElementById("register").addEventListener("click", function() {
+		  var email =  document.getElementById("email").value;
+		  var password = document.getElementById("password").value;
+		  //For new registration
+		  createUserWithEmailAndPassword(auth, email, password)
+		  .then((userCredential) => {
+		    // Signed in 
+		    const user = userCredential.user;
+		    console.log(user);
+		    alert("Registration successfully!!");
+		    // ...
+		  })
+		  .catch((error) => {
+		    const errorCode = error.code;
+		    const errorMessage = error.message;
+		    // ..
+		    console.log(errorMessage);
+		    alert(error);
+		  });		  		  
+	  });
 
+  </script>
 </html>
