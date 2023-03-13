@@ -17,7 +17,7 @@ body{
 margin: 0 px auto;
 }
 
-/* .comment body{
+.comment body{
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -100,7 +100,7 @@ opacity: 1 !important;
 opacity:1;
 }
 
-.rating:hover > input:checked ~ label:before{ opacity: 0.4; } */
+.rating:hover > input:checked ~ label:before{ opacity: 0.4; }
 
 /* Basic */
 
@@ -1055,7 +1055,7 @@ button.mfp-arrow {
   padding: 0;
   z-index: 1046;
   box-shadow: none;
-  touch-action: manipulation;
+  /* touch-action: manipulation; */
 }
 
 button::-moz-focus-inner {
